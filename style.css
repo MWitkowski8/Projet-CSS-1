@@ -1,0 +1,103 @@
+/* Styles pour le corps de la page */
+body {
+  padding-top: 150pt;
+  background-color: purple;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+}
+
+/* s'occupe de alligner les cartes dans l'espace */
+.Positionnement {
+  width: 1000pt;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Une carte (display: inline-block pour les mettre côte à côte) */
+.CarteChoix {
+  display: inline-block;
+  width: 250pt;
+  margin: 40pt;
+  background-color: rgb(73, 73, 90);
+  border-radius: 20pt;
+  color: white;
+  text-align: center;
+}
+    
+/* En-tête de la carte */
+.entete {
+  height: 65pt;
+  align-content: center;
+  border-radius: 10pt 10pt 0 0;
+}
+
+.titre {
+  font-size: 15pt;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* les id des couleurs des entetes par option */
+#couleurBasic {
+  background-color: rgb(28, 128, 241);
+}
+
+#couleurPro {
+  background-color: rgb(206, 40, 56);
+}
+
+#couleurPremium {
+  background-color: rgb(197, 146, 52);
+}
+
+/* Zone du prix */
+.Prix {
+  height: 70pt;
+  align-content: center;
+}
+/*  gere la taille et style du signe du dollar */
+.devise {
+  display: inline-block;
+  font-size: 14pt;
+  font-weight: bold;
+}
+/*  gere la taille et style du prix entier */
+.prixEntier {
+  display: inline-block;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+/*  gere la taille et style des centimes */
+.centimes {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: bold;
+}
+/*  gere la taille et style du per month */
+.Periode {
+  color: rgb(155, 155, 155);
+}
+
+/* Les features : les benifices de chaque option / creer les delimitation et les coleurs */
+.Features {
+  box-sizing: border-box;
+  height: 36pt;
+  align-content: center;
+  border-top: 1pt solid rgb(155, 155, 155);
+  color: rgb(155, 155, 155);
+}
+
+/* le bouton "Add to cart" */
+.AjoutPanier {
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 0 0 10pt 10pt;
+  background-color: rgb(73, 73, 90);
+  border: none;
+  height: 70pt;
+  color: white;
+  border-top: 1pt solid rgb(155, 155, 155);
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
